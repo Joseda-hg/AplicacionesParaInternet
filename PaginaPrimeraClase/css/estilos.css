@@ -1,0 +1,24 @@
+/* resetear el documento */
+*{
+    border: 200;
+    margin: 0; /*margen exterior*/
+    padding: 0;/*margen interior*/
+    box-sizing: border-box;
+}
+
+body{
+    background-color:aquamarine;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+header{
+    background: #f3f3f3;
+    width: 90%;
+    margin: 0 auto;
+    /* Sirve para centrar */
+    /* Revisar sin el auto y sin el 0 */
+    padding: 0%;
+}
