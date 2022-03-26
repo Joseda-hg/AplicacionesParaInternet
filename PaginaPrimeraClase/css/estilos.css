@@ -1,6 +1,6 @@
 /* resetear el documento */
 *{
-    border: 200;
+    /* border: 200; */
     margin: 0; /*margen exterior*/
     padding: 0;/*margen interior*/
     box-sizing: border-box;
@@ -14,10 +14,9 @@ a{
 
 body{
     background-color:aquamarine;
-    color: blue;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+    color: rgb(62, 94, 184);
     text-align: center;
+    font-family: sans-serif;
 }
 
 header{
@@ -26,11 +25,36 @@ header{
     margin: 0 auto;
     /* Sirve para centrar */
     /* Revisar sin el auto y sin el 0 */
-    padding: 20px, 100px;
+    padding: 20px 100px;
     display: flex;
     justify-content: space-around;
 }
 
 header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;    
+}
 
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 8px;
+    /* Quitar las vinetas */
+}
+
+/* Las etiquetas de formulario no tienen display de base */
+header nav ul li a{
+    background: rgb(17, 31, 94);
+    color: beige;
+    padding: 10px 20px;
+    margin-right: 5px;
+    border-bottom: 5px solid #2dcadf;
+    display: block;
+}
+
+header nav ul li a:hover{
+    color: black;
+    background: #2dcadf;
+    border-bottom: 5px solid #2dcadf;
+    transition: all linear 0.3s;
 }
