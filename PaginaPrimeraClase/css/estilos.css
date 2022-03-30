@@ -58,3 +58,40 @@ header nav ul li a:hover{
     border-bottom: 5px solid #2dcadf;
     transition: all linear 0.3s;
 }
+
+section.banner{
+    background: url("../img/WebDesign.jpg");
+    background-repeat: no-repeat;
+    backdrop-filter: blur(8px);
+    background-position: center center;
+    background-size: cover;
+    padding: 15%;
+    color: beige;
+}
+
+section.banner h1{
+    background : rgba(0,0,0,0.6);
+    color : #f3f3f3;
+    padding:20px;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+section.banner p {
+    color: fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.background_filter{
+    background: url("../img/WebDesign.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 15%;
+    color: beige;
+}
+
+section.especialidades{
+    padding: 5% 15%;
+    display: flex;
+}
