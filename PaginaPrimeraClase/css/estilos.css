@@ -8,6 +8,7 @@
     /* display: block; Automaticamente ocupar todo el ancho*/ 
 }
 
+
 a{
     text-decoration: none;
 }
@@ -17,6 +18,7 @@ body{
     color: rgb(62, 94, 184);
     text-align: center;
     font-family: sans-serif;
+    cursor: url('https://1000marcas.net/wp-content/uploads/2020/02/logo-Google-640x360.png'), auto;
 }
 
 header{
@@ -92,6 +94,81 @@ section.banner p {
 }
 
 section.especialidades{
-    padding: 5% 15%;
+    padding: 5%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.especialidades h1, section.contactanos h1{
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+section.especialidades .servicios{
+    width: 22%;
+    box-shadow: 0 0 8px #8a8787;
+    padding:15px;
+    margin-top: 25px;
+    border-radius: 15px;
+    transition: all linear 300ms;
+}
+
+section.especialidades .servicios:hover{
+    transform: scale(1.10);
+}
+
+
+section.especialidades .servicios i{
+    font-size: 70px;
+    color: #f3f3f3;
+}
+
+section.especialidades .servicios h3{
+    margin: 10px 0;
+}
+
+section.contactanos{
+    padding: 5% 0;
+    background-color: #aaaaaa;
+}
+
+section.contactanos iframe{
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+section.contactanos form{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section.contactanos form input,section.contactanos form textarea, section.contactanos form input{
+    width:30% ;
+    padding: 8px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    
+}
+
+section.contactanos form textarea, section.contactanos form button{
+    width: 100%
+}
+
+section.contactanos form button{
+    background-color: #2dcadf;
+    border: none;
+}
+
+section.contactanos form input:focus, section.contactanos form textarea:focus{
+    outline: none;
+    box-shadow: 0 0 30px rgb(212, 192, 95);
 }
